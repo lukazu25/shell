@@ -1,4 +1,11 @@
 ### Terminal Prompts
+
+default
+
+```
+PS1='\[\e[1;31m\]\u\[\e[0m\]@\[\e[1;34m\]\h\[\e[0m\]:\[\e[1;32m\]\w\[\e[0m\] \$ '
+```
+
 kali linux style
 
 for user
