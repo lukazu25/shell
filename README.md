@@ -39,17 +39,12 @@ PS1='\[\e[38;5;196m\]\u\[\e[0m\] in \[\e[38;5;45m\]\w\[\e[0m\]\n\[\e[38;5;82m\]â
 ```
 ### If you want to show asterisks on password
 
-Run this command to safely create the file using visudo (which checks syntax)
-
-```
-sudo visudo -f /etc/sudoers.d/0pwfeedback
-```
-Add this line inside the editor
+Create the file /etc/sudoers.d/0pwfeedback and add this line inside the editor
 
 ```
 Defaults pwfeedback
 ```
-### To disable asterisks add this line to the file **/etc/sudoers.d/0pwfeedback**
+### To disable 
 
 ```
 Defaults !pwfeedback
