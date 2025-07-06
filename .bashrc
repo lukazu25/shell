@@ -137,9 +137,9 @@ alias ungz='tar -xvzf'
 
 
 # Load personal aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+#if [ -f ~/.bash_aliases ]; then
+    #. ~/.bash_aliases
+#fi
 
 # Enable programmable completion
 if ! shopt -oq posix; then
