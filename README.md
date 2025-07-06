@@ -36,8 +36,10 @@ PS1='\[\e[38;5;196m\]┌──(\u)\[\e[0m\]-\[\033[01;34m\][\w]\[\e[0m\]\n\[\e[3
 ```
 for zsh
 ```
-PROMPT='%F{green}┌──(%n)%f-%F{blue}[%~]%f\n%F{green}└─╼ %f'
-PROMPT='%F{196}┌──(%n)%f-%F{blue}[%~]%f\n%F{196}└─╼ %f'
+PROMPT='%F{green}┌──(%n)%f-%F{blue}[%~]%f
+%F{green}└─╼ %f'
+PROMPT='%F{196}┌──(%n)%f-%F{blue}[%~]%f
+%F{196}└─╼ %f'
 ```
 
 ### If you use starship 
