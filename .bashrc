@@ -25,7 +25,8 @@ shopt -s checkwinsize
 #shopt -s globstar
 
 
-# Color for manpages in less makes manpages a little easier to read
+# Colored less + termcap vars
+export LESS="R --use-color -Dd+r -Du+b"
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
 export LESS_TERMCAP_me=$'\E[0m'
@@ -33,6 +34,9 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
+
+# Colored man pages
+export MANPAGER="less -R --use-color -Dd+r -Du+b" 
 
 
 # Identify chroot environment (safe on non-Debian too)
@@ -117,9 +121,6 @@ alias 777='chmod -R 777'
 
 # ping alias
 alias ping='ping -c 10'
-
-# less alias
-alias less='less -R'
 
 # yay alias for Arch linux
 #alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=down:75% | xargs -ro yay -S"
