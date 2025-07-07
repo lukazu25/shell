@@ -25,7 +25,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 setopt GLOB_STAR_SHORT
 
 # Colored less + termcap vars
-export LESS="-R --use-color"
+export LESS="-R"
 export LESS_TERMCAP_mb=$'\e[01;31m'
 export LESS_TERMCAP_md=$'\e[01;31m'
 export LESS_TERMCAP_me=$'\e[0m'
@@ -35,7 +35,7 @@ export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[01;32m'
 
 # Colored man pages
-export MANPAGER="less -R --use-color"
+export MANPAGER="less -R"
 
 # Identify chroot environment
 if [[ -z "${debian_chroot:-}" && -r /etc/debian_chroot ]]; then
