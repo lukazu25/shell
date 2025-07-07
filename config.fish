@@ -24,7 +24,7 @@ set -gx XDG_STATE_HOME "$HOME/.local/state"
 set -gx XDG_CACHE_HOME "$HOME/.cache"
 
 # Colored less + termcap vars
-set -gx LESS "-R --use-color"
+set -gx LESS "-R"
 set -gx LESS_TERMCAP_mb "\033[01;31m"
 set -gx LESS_TERMCAP_md "\033[01;31m"
 set -gx LESS_TERMCAP_me "\033[0m"
@@ -34,7 +34,7 @@ set -gx LESS_TERMCAP_ue "\033[0m"
 set -gx LESS_TERMCAP_us "\033[01;32m"
 
 # Colored man pages
-set -gx MANPAGER "less -R --use-color"
+set -gx MANPAGER "less -R"
 
 # Determine if terminal supports color
 switch $TERM
