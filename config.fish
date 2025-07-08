@@ -86,7 +86,18 @@ alias 755="chmod -R 755"
 alias 777="chmod -R 777"
 
 # Ping alias
-alias ping="ping -c 10"
+alias ping="ping -c 5"
+
+# tree alias
+alias tree='tree -CAhF --dirsfirst'
+alias treed='tree -CAFd'
+
+# tree alias
+alias tree='tree -CAhF --dirsfirst'
+alias treed='tree -CAFd'
+
+# yay alias for Arch linux
+#alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=down:75% | xargs -ro yay -S"
 
 # Alias for archives
 alias mktar="tar -cvf"
