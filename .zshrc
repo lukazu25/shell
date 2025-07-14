@@ -14,6 +14,9 @@ HISTFILE=~/.zsh_history
 setopt APPEND_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_REDUCE_BLANKS
+setopt HIST_SAVE_NO_DUPS
+setopt HIST_IGNORE_SPACE
+
 
 # set up XDG folders
 export XDG_DATA_HOME="$HOME/.local/share"
