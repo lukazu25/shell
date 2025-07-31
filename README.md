@@ -65,7 +65,7 @@ Or
 sudo rm /etc/sudoers.d/0pwfeedback
 ```
 
-### Fzf colors
+### Colorschemes for fzf 
 
 For fish terminal use `set -Ux FZF_DEFAULT_OPTS` instead of `export FZF_DEFAULT_OPTS=`
 
