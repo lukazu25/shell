@@ -93,9 +93,10 @@ export FZF_DEFAULT_OPTS="
 
 ```
 export FZF_DEFAULT_OPTS="
-    --color=bg+:#3b4252,bg:#2e3440,spinner:#88c0d0,hl:#81a1c1
-    --color=fg:#d8dee9,header:#81a1c1,info:#ebcb8b,pointer:#88c0d0
-    --color=marker:#88c0d0,fg+:#eceff4,prompt:#ebcb8b,hl+:#81a1c1"
+  --color=fg:#d8dee9,bg:#2e3440,hl:#81a1c1
+  --color=fg+:#eceff4,bg+:#3b4252,hl+:#81a1c1
+  --color=info:#ebcb8b,prompt:#ebcb8b,pointer:#88c0d0
+  --color=marker:#88c0d0,spinner:#88c0d0,header:#81a1c1"
 ```
 
 [Gruvbox]
