@@ -67,6 +67,7 @@ sudo rm /etc/sudoers.d/0pwfeedback
 
 ### Fzf colors
 
+For fish terminal use `set -Ux FZF_DEFAULT_OPTS` instead of `export FZF_DEFAULT_OPTS=`
 
 [Galaxy]
 
