@@ -70,35 +70,41 @@ sudo rm /etc/sudoers.d/0pwfeedback
 
 [Galaxy]
 
+```
 export FZF_DEFAULT_OPTS="
   --color=fg:#e3e3ea,bg:#08052b,hl:#ff7f7f
   --color=fg+:#e3e3ea,bg+:#08052b,hl+:#ff7f7f
   --color=info:#ff7f7f,prompt:#ff7f7f,pointer:#ff7f7f
   --color=marker:#ff7f7f,spinner:#ff7f7f,header:#ff7f7f"
-
+```
 
 [Solarized Dark]
 
+```
 export FZF_DEFAULT_OPTS="
   --color=fg:#839496,bg:#002b36,hl:#268bd2
   --color=fg+:#eee8d5,bg+:#073642,hl+:#268bd2
   --color=info:#b58900,prompt:#b58900,pointer:#2aa198
   --color=marker:#2aa198,spinner:#2aa198,header:#268bd2"
+```
 
 [Nord]
 
+```
 export FZF_DEFAULT_OPTS="
     --color=bg+:#3b4252,bg:#2e3440,spinner:#88c0d0,hl:#81a1c1
     --color=fg:#d8dee9,header:#81a1c1,info:#ebcb8b,pointer:#88c0d0
     --color=marker:#88c0d0,fg+:#eceff4,prompt:#ebcb8b,hl+:#81a1c1"
+```
 
 [Gruvbox]
 
+```
 export FZF_DEFAULT_OPTS="
   --color=fg:#ebdbb2,bg:#282828,hl:#fb4934
   --color=fg+:#ebdbb2,bg+:#3c3836,hl+:#fb4934
   --color=info:#83a598,prompt:#b8bb26,pointer:#fe8019
   --color=marker:#fabd2f,spinner:#d3869b,header:#928374"
-
+```
 
 
