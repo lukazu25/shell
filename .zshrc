@@ -38,6 +38,7 @@ export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[01;32m'
 
 # Colored man pages
+export MANROFFOPT='-c'
 export MANPAGER="less -R"
 
 # Identify chroot environment
