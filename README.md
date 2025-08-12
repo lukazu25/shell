@@ -109,4 +109,17 @@ export FZF_DEFAULT_OPTS="
   --color=marker:#fabd2f,spinner:#d3869b,header:#928374"
 ```
 
+[Everforest]
+
+```
+export FZF_DEFAULT_OPTS="
+  --color=bg+:#2B3339,bg:#2B3339,spinner:#A7C080,hl:#DBBC7F
+  --color=fg:#D3C6AA,header:#A7C080,info:#7FBBB3,pointer:#D3C6AA
+  --color=marker:#83C092,fg+:#D3C6AA,prompt:#D699B6,hl+:#DBBC7F
+  --color=border:#4C5356,label:#7FBBB3,query:#D3C6AA"
+
+```
+
+
+
 
