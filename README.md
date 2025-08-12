@@ -117,7 +117,6 @@ export FZF_DEFAULT_OPTS="
   --color=fg:#D3C6AA,header:#A7C080,info:#7FBBB3,pointer:#D3C6AA
   --color=marker:#83C092,fg+:#D3C6AA,prompt:#D699B6,hl+:#DBBC7F
   --color=border:#4C5356,label:#7FBBB3,query:#D3C6AA"
-
 ```
 
 
