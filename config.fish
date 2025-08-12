@@ -34,6 +34,7 @@ set -gx LESS_TERMCAP_ue "\033[0m"
 set -gx LESS_TERMCAP_us "\033[01;32m"
 
 # Colored man pages
+set -gx MANROFFOPT='-c'
 set -gx MANPAGER "less -R"
 
 # Determine if terminal supports color
