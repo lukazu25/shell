@@ -2,7 +2,7 @@
 
 [Gruvbox]
 
-# Gruvbox color palette (dark)
+```
 bg0_hard = "#1d2021"
 bg0_soft = "#32302f"
 bg1 = "#3c3836"
@@ -25,7 +25,7 @@ aqua = "#8ec07c"
 orange = "#fe8019"
 gray = "#928374"
 
-# Set Gruvbox colors
+
 c.colors.completion.fg = fg1
 c.colors.completion.odd.bg = bg1
 c.colors.completion.even.bg = bg0_hard
@@ -88,10 +88,11 @@ c.fonts.default_family = "JetBrainsMono Nerd Font"
 c.fonts.default_size = "15pt"
 
 config.set("colors.webpage.darkmode.enabled", False)
+```
 
 [Nord]
 
-# Nord color palette
+```
 bg0_hard = "#2e3440"
 bg0_soft = "#3b4252"
 bg1 = "#434c5e"
@@ -114,7 +115,7 @@ aqua = "#88c0d0"
 orange = "#d08770"
 gray = "#4c566a"
 
-# Set Nord colors
+
 c.colors.completion.fg = fg1
 c.colors.completion.odd.bg = bg1
 c.colors.completion.even.bg = bg0_hard
@@ -177,11 +178,12 @@ c.fonts.default_family = "JetBrainsMono Nerd Font"
 c.fonts.default_size = "15pt"
 
 config.set("colors.webpage.darkmode.enabled", False)
-
+```
 
 [Solarized Dark]
 
-# Solarized Dark color palette
+
+```
 bg0_hard = "#002b36"
 bg0_soft = "#073642"
 bg1 = "#0f2f3a"
@@ -204,7 +206,7 @@ aqua = "#2aa198"
 orange = "#cb4b16"
 gray = "#073642"
 
-# Set Solarized Dark colors
+
 c.colors.completion.fg = fg1
 c.colors.completion.odd.bg = bg1
 c.colors.completion.even.bg = bg0_hard
@@ -267,4 +269,4 @@ c.fonts.default_family = "JetBrainsMono Nerd Font"
 c.fonts.default_size = "15pt"
 
 config.set("colors.webpage.darkmode.enabled", False)
-
+```
